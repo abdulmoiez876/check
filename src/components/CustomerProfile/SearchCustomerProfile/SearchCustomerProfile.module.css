@@ -1,0 +1,83 @@
+.flexCol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px;
+    /* padding: 10px; */
+    /* align-items: center; */
+}
+
+.flexRow {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    margin: 10px;
+    /* background-color: red; */
+}
+
+.flexRowMain {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    /* background-color: rgb(231, 231, 231); */
+}
+
+.r1Head {
+    justify-content: space-between;
+}
+
+.r0 {
+    justify-content: center;
+}
+
+.r2Name {
+    justify-content: space-between;
+}
+
+.select {
+    width: auto;
+    height: 40px;
+    border-radius: 5px
+}
+
+.btn {
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.flexRowTop {
+    display: flex;
+}
+
+@media screen and (max-width: 543px) {
+    .flexRow {
+        flex-direction: column;
+        margin: -5px 0;
+    }
+    .flexCol {
+        /* margin: 3px 0; */
+    }
+}
+
+.error {
+    color: red;
+}
+
+.pointer {
+    cursor: pointer;
+}

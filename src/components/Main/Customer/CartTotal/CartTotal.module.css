@@ -1,0 +1,17 @@
+.box{
+    padding: 10px;
+}
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    color: green;
+}

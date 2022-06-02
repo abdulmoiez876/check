@@ -1,0 +1,269 @@
+/* .grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    column-gap: 10px;
+} */
+
+
+/* .left {
+    background-color: rgb(219, 208, 208);
+    padding: 10px;
+    align-items: middle;
+} */
+
+
+/* .right {
+    padding: 10px;
+} */
+
+
+/*
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+}
+
+
+
+.select {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 219, 219);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+*/
+
+
+/* .container {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+*/
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.button {
+    width: 100%;
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+    background-color: orange;
+}
+
+
+/* .input {
+    height: 75px;
+    width: 100%;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+} */
+
+
+/* .special {
+    grid-column: 1/3;
+    color: rgb(187, 180, 180);
+} */
+
+.highlight {
+    background-color: orange;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: orange;
+    border-color: orange;
+}
+
+@media screen and (max-width: 414px) {
+    /* .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 15% 75%;
+    } */
+    /* .left .flexCol {
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .flex1 {
+        display: flex;
+    }
+    .left {
+        padding-bottom: 25px;
+        margin-bottom: 19px;
+    } */
+    .flex {
+        flex-direction: column;
+    }
+}
+
+.flexCol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px;
+    /* padding: 10px; */
+    /* align-items: center; */
+}
+
+
+/* .flexRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+    background-color: red;
+} */
+
+
+/* .flexRowMain {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100px;
+} */
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    /* background-color: rgb(231, 231, 231); */
+}
+
+
+/* .r1Head {
+    justify-content: space-between;
+} */
+
+
+/* .r0 {
+    justify-content: center;
+} */
+
+
+/* .r2Name {
+    justify-content: space-between;
+} */
+
+.select {
+    width: auto;
+    height: 40px;
+    border-radius: 5px
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    border: 1px solid rgb(77, 74, 74);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.flex {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+}
+
+.flexConst {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+}
+
+@media screen and (max-width: 543px) {
+    .flexRow {
+        flex-direction: column;
+        margin: -5px 0;
+    }
+    .flexCol {
+        /* margin: 3px 0; */
+    }
+}
+
+.error {
+    color: red;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.select {
+    border: 1px solid rgb(224, 219, 219);
+    width: auto;
+    height: 40px;
+    border-radius: 5px
+}
+
+
+/* .span {
+    font-size: large;
+} */
+
+.cashInHand {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgb(224, 219, 219);
+    font-size: 15px;
+}
+
+.cashInHand1 {
+    /* margin: 0 10px; */
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgb(224, 219, 219);
+    font-size: 15px;
+}

@@ -1,0 +1,29 @@
+.cartItem {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    padding: 4% 3%;
+    align-items: center;
+    border-bottom: 1px solid silver;
+    justify-content: space-between;
+}
+
+
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.centreButtons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    background-color: orange;
+    padding: 4px 10px;
+    margin: 0 10px;
+}
+

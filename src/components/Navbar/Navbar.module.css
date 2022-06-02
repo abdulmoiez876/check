@@ -1,0 +1,308 @@
+.navbarMine {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: orange;
+}
+
+.containerMine {
+    /* margin-left: 0; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeMine {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location {
+    color: white;
+    display: flex;
+}
+
+.locationLeftResponsive {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loc1 {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 414px) {
+    .loc1 {
+        flex-direction: column;
+    }
+    .containerMine {
+        font-size: 0.8rem;
+    }
+}
+
+.pLocation {
+    margin-left: 2px;
+}
+
+.manage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexItems {
+    margin: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+}
+
+.a {
+    text-decoration: none;
+    color: #b5ebeb;
+    cursor: pointer;
+}
+
+.verticalLine {
+    background-color: white;
+    height: 25px;
+    width: 1px;
+    opacity: 0.5;
+}
+
+.button {
+    padding: 10px;
+    color: white;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.buttonRightDrop {
+    padding: 10px;
+    color: white;
+    background-color: red;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.bell {
+    transition: all 0.5s ease-in-out;
+}
+
+.arrowOut {
+    transition: all 0.5s ease-in-out;
+}
+
+.bell:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.arrowOut:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.home {
+    transition: all 0.5s ease-in-out;
+}
+
+.home:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.li {
+    list-style: none;
+}
+
+.hamDrop {
+    opacity: 1;
+    position: absolute;
+    top: 4rem;
+    left: 0.3rem;
+    background-color: orange;
+    height: fit-content;
+    width: 12rem;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.dropNone {
+    display: none;
+    /* display: static; */
+    transition: all 0.5s ease-in-out;
+}
+
+.dropShow {
+    display: static;
+    transition: all 0.5s ease-in-out;
+}
+
+.flexItemsLi {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.lastLi {
+    background-color: #c65338;
+    transition: all 0.5s ease-in-out;
+}
+
+.lastLi:hover {
+    background-color: red;
+    transition: all 0.5s ease-in-out;
+}
+
+.listLi:hover {
+    background-color: orangered;
+    transition: all 0.5s ease-in-out;
+}
+
+.listLi {
+    transition: all 0.5s ease-in-out;
+}
+
+.userImageSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userImage {
+    display: flex;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.userImageDrop {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+    position: absolute;
+    top: 4rem;
+    left: 0.3rem;
+    background-color: orange;
+    height: fit-content;
+    width: 12rem;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    margin-left: 12px;
+}
+
+.flexItemsImage {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 947px) {
+    .right {
+        display: none;
+    }
+}
+
+.rightResponsive {
+    background-color: orange;
+    height: fit-content;
+    width: fit-content;
+    flex-grow: 1;
+    position: absolute;
+    right: 10px;
+}
+
+.rightDrop {
+    background-color: orange;
+    position: absolute;
+    right: 0px;
+    top: 3.9rem;
+    z-index: 100;
+}
+
+.leftResponsive {
+    background-color: orange;
+    height: fit-content;
+    width: fit-content;
+    flex-grow: 1;
+    /* position: absolute; */
+    /* right: 10px; */
+}
+
+.leftDrop {
+    background-color: orange;
+    position: absolute;
+    left: 10px;
+    top: 3.9rem;
+    z-index: 100;
+}
+
+.flexRow {
+    display: flex;
+    /* align-items: center; */
+}
+
+@media screen and (max-width: 718px) {
+    .left {
+        display: none;
+    }
+    .dropLeft {
+        display: static;
+    }
+}
+
+@media screen and (min-width: 719px) {
+    .leftResponsive {
+        display: none;
+    }
+    .dropLeft {
+        display: none;
+    }
+}
